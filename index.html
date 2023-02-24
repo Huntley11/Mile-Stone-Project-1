@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dollar Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Dollar Clicker</h1>
+    <div id="dollarCounter">$0</div>
+    <div id="dollar">
+        <button id="dollarButton" onclick="incrementCounter()">
+            <img id="dollarImg" src="assets\US_one_dollar_bill,_obverse,_series_2009.jpg">
+        </button>
+    </div>
+    <div>
+        <button onclick="lemonadeStand()" title="Earn $0.25 more per click">Purchase A Lemonade Stand For $10.00</button>
+        <p>Number of Lemonade Stands: <span id="lemonadeCount">0</span></p>
+    </div>
+  
+    <div>
+        <button onclick="lawnMowing()" title="Earn $5.00 more per click">Hire A Person to Mow Lawns For $100.00</button>
+        <p>Number of People Mowing Lawns: <span id="mowerCount">0</span></p>
+    </div>
+
+    <div>
+        <button onclick="coffeeShop()" title="Earn $100.00 more per click">Purchase A Coffee Shop For $10,000.00</button>
+        <p>Number of Coffee Shops: <span id="coffeeCount">0</span></p>
+    </div>
+
+    <div>
+        <button onclick="fastFood()" title="Earn $1,000.00 more per click">Purchase A Fast Food Restaurant For $100,000.00</button>
+        <p>Number of Fast Food Restaurants: <span id="fastFoodCount">0</span></p>
+    </div>
+
+    <div>
+        <button onclick="bank()" title="Earn $100,000.00 more per click">Purchase A Bank For $10,000,000.00</button>
+        <p>Number of Banks: <span id="bankCount">0</span></p>
+    </div>
+  
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+display: flex;
+flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+
+#dollarImg {
+    width: 100%
+}
+button {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
