@@ -28,24 +28,28 @@ function updateMowerCount() {
   document.getElementById("mowerCount").innerHTML = mowerCount;
   document.getElementById("lawnMowingButton").innerHTML = "Hire A Person to Mow Lawns For " + mowerCost.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
   localStorage.setItem("mowerCount", mowerCount);
+  localStorage.setItem("mowerCost", mowerCost);
 }
 
 function updateCoffeeCount() {
   document.getElementById("coffeeCount").innerHTML = coffeeCount;
   document.getElementById("coffeeShopButton").innerHTML = "Purchase A Coffee Shop For " + coffeeCost.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
   localStorage.setItem("coffeeCount", coffeeCount);
+  localStorage.setItem("coffeeCost", coffeeCost);
 }
 
 function updateFastFoodCount() {
   document.getElementById("fastFoodCount").innerHTML = fastFoodCount;
   document.getElementById("fastFoodButton").innerHTML = "Purchase A Fast Food Restaurant For " + fastFoodCost.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
   localStorage.setItem("fastFoodCount", fastFoodCount);
+  localStorage.setItem("fastFoodCost", fastFoodCost);
 }
 
 function updateBankCount() {
   document.getElementById("bankCount").innerHTML = bankCount;
   document.getElementById("bankButton").innerHTML = "Purchase A Bank For " + bankCost.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
   localStorage.setItem("bankCount", bankCount);
+  localStorage.setItem("bankCost", bankCost);
 }
 
 function incrementCounter() {
